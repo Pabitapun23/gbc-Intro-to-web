@@ -1,0 +1,26 @@
+/* 1. flex container */
+/* display:flex; that this element should be treated as a flex container */
+body {
+  display: flex;
+  /* After setting display: flex;, you get access to other properties that you can use to arrange the flex on screen */
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+div {
+    border: 1px solid black;
+}
+
+p {
+  border: 1px solid white;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* 2. flex item */
+img {
+  border: 1px solid #cccccc;
+  width: 200px;
+}
+

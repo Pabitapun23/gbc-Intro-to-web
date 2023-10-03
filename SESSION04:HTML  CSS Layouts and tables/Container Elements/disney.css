@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  /* the default is always flex-direction: row; */
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  font-family: arial;
+  background-color: yellow;
+}
+
+div {
+    background-color: white;
+}
+
+.tv-show-name {
+    font-style: italic ;
+}

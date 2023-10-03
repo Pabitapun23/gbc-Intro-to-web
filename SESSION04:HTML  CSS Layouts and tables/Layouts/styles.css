@@ -1,0 +1,32 @@
+/* 1. flex container */
+/* display:flex; that this element should be treated as a flex container */
+body {
+    display: flex;
+    /* After setting display: flex;, you get access to other properties that you can use to arrange the flex on screen */
+    flex-direction: column;
+    /* flex-direction: column;
+    flex-direction: row-reverse; */
+
+    gap: 50px;
+
+    /* When using flex, you can automatically move items to the middle of the screen */
+    justify-content: center;
+    /* justify-content: flex-end;
+    justify-content: flex-start; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+}
+
+p {
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* 2. flex item */
+img {
+  border: 2px solid magenta;
+  width: 200px;
+}

@@ -1,0 +1,93 @@
+/* Every element on the page has the same font */
+body {
+  font-family: Arial;
+}
+
+/* Set the width of the table and move it to the middle */
+table {
+  /* make a 1 px border 
+    solid line
+    the color of the border is blue*/
+  border: 1px solid white;
+  background-color: aliceblue;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+tr {
+    /* add a border to the bottom of the tr element */
+    /* by defaults, tables will not show borders on tr elements, you need to add the border-collapse property to the table */
+    border-bottom: 1px solid #5555;
+    /* padding-top: 100px; padding doesn't work here*/
+}
+
+a:hover {
+    background-color: gray;
+
+}
+
+tr:hover {
+    /* when the person moves their mouse on a tr element, apply the styles */
+    background-color: #cccccc;
+}
+
+td {
+    /* with a table, you can only control the padding td*/
+    padding: 20px;
+}
+
+/* date column should be bold text */
+.date-col {
+  font-weight: bold;
+  color: orange;
+}
+
+.light-btn {
+  /* white background 
+    black text
+    black border
+    whitespacing between the text and the border
+    text is all capitals
+     */
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  /* overriding the default behaviour of the a to be a block level element, removes the overflow issue. */
+  display: block; /* block level elements don't have overline or overflow problems */
+  text-align: center;
+  width: 150px;
+  font-weight: bold;
+}
+
+.dark-btn {
+  /* black background 
+    black text
+    black border
+    whitespacing between the text and the border
+    text is all capitals
+    */
+    /* All other styles are same */
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  /* overriding the default behaviour of the a to be a block level element, removes the overflow issue. */
+  display: block; /* block level elements don't have overline or overflow problems */
+  text-align: center;
+  width: 150px;
+  font-weight: bold;
+}
+
+.city-col {
+    text-align: right;
+}
+
