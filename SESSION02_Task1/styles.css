@@ -1,0 +1,39 @@
+body {
+    margin: 5%;
+    background-color: lightblue;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(30, 83, 30);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+   
+}
+
+.img-container {
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+p {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
