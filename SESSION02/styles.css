@@ -1,0 +1,105 @@
+body {
+  background-color: antiquewhite;
+  margin: 5%;
+  border: 2px solid gray;
+  padding: 5%;
+}
+
+p {
+  /* predefined names of the color; it has least prescedence*/
+  color: orange;
+
+  /* HEX ; It has less prescedende than rgb*/
+  color: #ffa500;
+
+  /* RGB ; most prescedent*/
+  color: rgb(50, 25, 15);
+}
+
+h1 {
+  color: darkblue;
+  /* Change the font */
+  /* font-size: medium; */
+  /* 2em makes 2 times the default font size aka it makes font responsive */
+  font-size: 2.5em;
+  /* font-size: 80px; */
+  /* font-weight: 100; */
+  font-weight: bold;
+  font-style: italic;
+  /* text-decoration: line-through; */
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  /* border the element */
+  /* width of the border first, style of the border, then color of the border */
+  border: 5px dashed purple;
+  /* font-style: italic; */
+
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+
+  /* padding - space between content and border of the element */
+  /* padding: 10px; */
+  /* padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px; */
+
+  /* top - right - bottom - left (clockwise)*/
+  padding: 10px 50px 20px 20px;
+
+  /* margin - space between border of the element and its neighbouring elements */
+  /* margin: 4px; */
+  /* margin: 5px 20px 30px 40px; */
+  margin-left: 20px;
+  margin-top: 30px;
+
+  background-color: skyblue;
+}
+
+img {
+  /* width: 500px;
+    height: 500px; */
+  border: 2px solid gray;
+}
+
+/* CSS Selectors */
+/* p {} - CSS applied to all paragraph in web page
+id (#) and class (.) - CSS only applied HTML element which had id attribute set */
+#centerpara {
+  width: 70%;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerHeader {
+  width: 80%;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+}
+
+#imgCenter {
+  width: 300px;
+  height: 350px;
+  border: 2px solid blue;
+  /* top-bottom, left-write */
+  margin: 10px auto;    
+  /* top-right-bottom-left   */
+  /* margin: 10px 20px 30px 40px; */
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto; */
+  display: block;
+}
+
+.menuLink {
+  display: inline;
+  margin: 0 20px;
+}

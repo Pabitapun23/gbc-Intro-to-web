@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties Demo</title>
+</head>
+<body>
+    <h1>Inline vs block elements</h1>
+    <h2>Block Elements</h2>
+    <ol>
+        <li>Always occupy the full width of the screen</li>
+        <li>Have a new line at the end of the element</li>
+        <li>Example: p, heading tag, ul, li</li>
+    </ol>
+    <h2>Example of block elements</h2>
+    <p style="background-color: skyblue;">This is a paragraph which is a block element</p>
+
+    <h2>Inline Elements</h2>
+    <ol>
+        <li>Always occupy the width required to show the element's content</li>
+        <li>Doesn't have a new line at the end of the element</li>
+        <li>Example: a, img, input, button, label, span, strong</li>
+    </ol>
+    <h2>Example of Inline elements</h2>
+    <a href="#" style="background-color: skyblue;">This is a link</a>
+    <button>This is a button</button>
+    <label for="">Name:</label>
+    <input type="text" name="" placeholder="Enter your name">
+    <strong style="background-color: skyblue;">This is a strong text</strong>
+
+    <hr/>
+
+    <h2>Effect of width and height properties on inline vs block elements</h2>
+    <p>You can set the width and heights of a block level elements</p>
+    <p style="width: 200px; height: 100px; background-color: skyblue;">This is a block element (paragraph) which reflects the height and width specification set by CSS</p>
+
+    <p>Some of the inline elements respond to the width and height specification set by CSS</p>
+    <img src="./assets/images/coffee.jpg" alt="apple" style="width: 100px; height: 150px;">
+    <input type="text" name="" placeholder="Enter any text" style="width: 100px; height: 150px;">
+
+    <p>But many of the inline elements IGNORE the width and height specifications set by CSS</p>
+    <a href="#" style="width: 100px; height: 150px; background-color: green; color: aliceblue;">This is a link to same page</a>
+    <strong style="width: 100px; height: 150px; background-color: green; color: aliceblue;">This is a string text</strong>
+
+    <br><br>
+    <hr>
+
+    <h2>Override default inline or block display behaviour of the element</h2>
+
+    <p>You can use the display property to set it to block or inline to change the default display of an element</p>
+
+    <a href="#" style="background-color: aqua; width: 500px; height: 200px; display: block;">This is a link to same page as block display </a>
+    <p style="background-color: greenyellow; width: 200px; height: 150px; display: inline;">This is a paragraph as inline element</p>
+</body>
+</html>
