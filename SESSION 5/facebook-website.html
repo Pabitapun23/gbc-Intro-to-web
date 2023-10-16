@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+
+    <!-- Internal Stylesheet -->
+    <style>
+      /* Make these links grey */
+      li > a {
+        color: #737373;
+        text-decoration: none;
+      }
+
+      li > a:hover {
+        text-decoration: underline;
+      }
+
+      /* vh = viewport height
+      viewport = browser screen size
+      vw = viewport width - same width as the browser screen
+       */
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        /* width: 100vw; */
+        background-color: #f0f2f5;
+
+        /* background-image: url("https://images.ctfassets.net/22n7d68fswlw/4qW7jcfXAZGlyW1WnJoycQ/9fd508a7d41760acca9689eaab233d19/RUSTIN_01.jpg"); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      body {
+        /* This will remove the default white line around the page */
+        margin: 0px;
+        font-family: Arial;
+      }
+
+      form input {
+        margin-bottom: 15px;
+        padding: 18px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+
+      form button {
+        padding: 15px;
+        background-color: #1877f2;
+        border: 1px solid #1877f2;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+      }
+
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        background-color: white;
+      }
+
+      #forgot-pwd-link {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #cccccc;
+        margin: 0 18px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        text-decoration: none;
+        font-size: 15px;
+      }
+
+      #forgot-pwd-link:hover {
+        text-decoration: underline;
+      }
+
+      #create-new-account-link {
+        display: flex;
+        justify-content: center;
+        border: 1px solid #42b72a;
+        border-radius: 5px;
+        color: white;
+        background-color: #42b72a;
+        margin: 20px auto;
+        padding: 15px;
+        width: 50%;
+        text-decoration: none;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- the main contains the elements you want to flex -->
+    <main>
+      <!-- To align elements -->
+      <div style="width: 60%; margin: 0 auto; display: flex; gap: 80px">
+        <!-- left column -->
+        <div style="display: flex; flex-direction: column; justify-content: flex-start;">
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+            style="width: 350px; margin-left: -35px;"
+          />
+          <h1>Connect with friends and the world around you on Facebook.</h1>
+        </div>
+
+        <!-- right column -->
+        <div class="form-container">
+          <form
+            style="
+              display: flex;
+              flex-direction: column;
+              margin: 20px;
+              width: 330px;
+              height: 180px;
+            "
+          >
+            <input type="text" placeholder="Email or phone number" />
+            <input type="text" placeholder="Password" />
+            <button>Log In</button>
+          </form>
+
+          <a href="#" id="forgot-pwd-link">Forgotten password?</a>
+          <a href="#" id="create-new-account-link">Create new account</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- To align elements -->
+      <div style="width: 60%; margin: 0 auto; padding-top: 30px;">
+        <!-- footer right column -->
+        <ul
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            list-style-type: none;
+            padding-left: 0px;
+            align-items: center;
+          "
+        >
+          <li><a href="#">English (US)</a></li>
+          <li><a href="#">中文(简体)</a></li>
+          <li><a href="#">한국어</a></li>
+          <li><a href="#">Português (Brasil)</a></li>
+          <li><a href="#">Italiano</a></li>
+          <li><a href="#">हिन्दी</a></li>
+          <li><a href="#">لعربية</a></li>
+        </ul>
+        <hr>
+
+        <!-- footer left column -->
+        <ul
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            list-style-type: none;
+            padding-left: 0px;
+          "
+        >
+          <li><a href="#">Signup</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Messenger</a></li>
+          <li><a href="#">Facebook Lite</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Meta Pay</a></li>
+          <li><a href="#">Meta Store</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
