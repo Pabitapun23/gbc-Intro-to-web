@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Rolling Game</title>
+
+    <link rel="stylesheet" href="./css/diceGameStyle.css" />
+
+    <script src="./js/diceRollingGame.js" defer="true"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Dice Rolling Game</h1>
+      <p>Instructions</p>
+      <ul>
+        <li>Enter a value between 1 and 6</li>
+        <li>Computer will randomly select a value between 1 and 6</li>
+        <li>Whoever has the higher number wins!</li>
+      </ul>
+    </header>
+
+    <main>
+      <label for="number">Enter a value between 1 and 6</label>
+      <br />
+      <br />
+      <input
+        type="text"
+        name="number"
+        placeholder="Enter a value between 1-6"
+        id="playerInput"
+      />
+      <button id="playBtn">Play Now</button>
+
+      <p id="errMsg"></p>
+
+      <div class="result">
+        <p id="playerResult" class="dice-container"></p>
+        <p id="computerResult" class="dice-container"></p>      
+      </div>
+      <p id="winner"></p>
+    </main>
+  </body>
+</html>

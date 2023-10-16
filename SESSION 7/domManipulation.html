@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+
+    <link rel="stylesheet" href="./css/Styles.css" />
+
+    <!-- indicates to a browser that the javascript is meant to be executed after the document has been parsed/loaded -->
+    <script src="./js/dom.js" defer="true"></script>
+  </head>
+  <body>
+    <h1>DOM Manipulation</h1>
+
+    <label for="age"> Enter age </label>
+    <input type="text" placeholder="Enter Age" name="age" />
+    <br />
+
+    <button>Validate</button>
+
+    <p>Another Paragraph</p>
+
+    <p id="outputPara">Output</p>
+
+    <button id="query1">Show entire gradeList</button>
+
+    <button id="query2">Show all Data for MADS4007</button>
+
+    <button id="query3"></button>
+
+    <button id="query4"></button>
+
+    <div id="outTable"></div>
+
+    <div id="mainContent">
+      <p id="intro">This is a sample paragraph used in DOM example</p>
+
+      <p class="redHeader cyanBack">
+        Another one...because we need more content
+      </p>
+
+      <p class="redHeader"></p>
+
+      <h1 class="cyanBack">This is another header...within div</h1>
+
+      <a id="myLink" href="https://www.google.com" class="cyanBack"
+        >Google Home page</a
+      >
+
+      <h2 class="underlineDecor">We will show any output here</h2>
+    </div>
+
+    <h1>This header is outside div</h1>
+
+    <!-- <script src="./js/dom.js"></script> -->
+  </body>
+</html>
