@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  border: 2px solid gray;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+/* use of Second Font */
+th {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px 20px;
+  text-decoration: underline;
+}
+
+td {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px 30px;
+  text-align: center;
+}
+
+form {
+  border: 2px solid gray;
+  width: 500px;
+  margin: 20px auto 50px auto;
+  padding: 20px;
+}
+
+button {
+  width: 35%;
+  height: 50px;
+  display: block;
+  background-color: skyblue;
+  color: black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 30px auto 5px auto;
+}
+
+/* Selectors */
+.menuLink {
+  display: inline;
+  margin: 0 20px;
+}
+
+.menuList {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.attractionList {
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.formLabel {
+  display: block;
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.formInput {
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.radioButton {
+  width: 30px;
+  height: 20px;
+}
+
+#paragraphCard {
+  background-color: rgb(190, 195, 197);
+  text-align: justify;
+  padding: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(233, 229, 229);
+  border-radius: 10px;
+  color: rgb(57, 62, 63);
+}
+
+#radioLabel {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
