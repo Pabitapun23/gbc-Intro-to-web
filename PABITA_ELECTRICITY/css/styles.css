@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('/assets/images/bulb-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* Styling the main calculator */
+main {
+    width: 33%;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border: 1ps solid #cccccc;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 38px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#calc-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#btn-calculate {
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: #8AAAE5 ;
+    border: 1px solid #8AAAE5;
+    border-radius: 10px;
+    width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}  
+
+#btn-calculate:hover {
+    color: #FCF6F5;
+    background-color: #2F3C7E;
+}
+
+input[type='text'] {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 28vw;
+}
+
+select {
+    padding: 15px 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    width: 30.5vw;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: gray;
+}
+
+/* Receipt styling */
+#receipt-container-section {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #FCF6F5;
+    width: 35%;
+    margin: 30px auto;  
+    padding: 30px;
+    opacity: 0.8;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 55px;
+    font-size: 15px;
+
+}
+.box h2 {
+    font-size: 20px;
+}
+
+.on-peak-box {
+    border: 2px solid #8AAAE5;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #8AAAE5;
+    color: white;
+}
+
+.off-peak-box {
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #cccccc;
+}
+
+.calculated-amount {
+    font-size: 40px;
+    margin: 0;
+}
+
+#receipt-amount-section {
+    font-size: 20px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+#total-amount-section {
+    font-size: 50px;
+    border: 1px solid #2F3C7E;
+    border-radius: 5px;
+    background-color: #2F3C7E;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#total-amount-section > h2 {
+    font-size: 28px;
+}
+
+#total-amount-section > p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* style for error message */
+#error-msg-on-peak, #error-msg-off-peak{
+    color: red;
+    font-size: 20px;
+    margin-top: 0;
+}

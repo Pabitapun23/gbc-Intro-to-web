@@ -1,0 +1,54 @@
+<!-- Name: Pabita Pun
+Student Number: 101492174 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pabita Pun</title>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- form for calculating electricity bill -->
+    <main>
+      <h1>Electricity Bill Calculator</h1>
+      <div id="calc-container">
+        <label>Enter kwh used during on-peak hours</label>
+        <input
+          type="text"
+          placeholder="Enter on peak hours"
+          id="userOnPeakHour"
+        />
+        <!-- For Error Message section : this is visible when user enters non valid hours for on peak hours textbox-->
+        <p id="error-msg-on-peak"></p>
+
+        <label>Enter kwh used during off-peak hours</label>
+        <input
+          type="text"
+          placeholder="Enter off peak hours"
+          id="userOffPeakHour"
+        />
+        <!-- For Error Message section : this is visible when user enters non valid hours for off peak hours textbox-->
+        <p id="error-msg-off-peak"></p>
+
+        <!-- Select province of residence -->
+        <label>Province of residence</label>
+        <select id="">
+          <option value="1">British Columbia</option>
+          <option value="2">Ontario</option>
+          <option value="2">Other</option>
+        </select>
+        <button id="btn-calculate">Calculate</button>
+      </div>
+    </main>
+
+    <!-- Here, the receipt will be visible after user enters the amount and clicks calculate button -->
+    <section></section>
+
+    <!-- Javascript  -->
+    <script src="/js/index.js"></script>
+  </body>
+</html>
