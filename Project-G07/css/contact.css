@@ -1,0 +1,134 @@
+/* style header */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  z-index: 1;
+}
+
+#logo {
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  gap: 30px;
+  list-style-type: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  color: #db0000;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* It makes the navbar sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #cccccc;
+}
+
+/* style main section */
+main {
+  /* margin: 0; */
+  background-color: #831010;
+  font-size: 25px;
+  padding: 30px 0 60px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 30px;
+    margin: 0;
+  }
+
+/* style a form */
+form {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 50px;
+  gap: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+input,
+textarea {
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+  border: 1px solid lightgray;
+}
+
+button {
+  background-color: #db0000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  padding: 18px 20px;
+  margin: 20px auto 0px auto;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #831010;
+}
+
+/* style footer section */
+footer {
+  background-color: #831010;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.social-media-icons {
+  text-align: center;
+}
+
+.social-media-icons > a {
+  text-decoration: none;
+  padding: 15px 10px;
+}
